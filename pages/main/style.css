@@ -132,6 +132,11 @@ header {
     margin: 10px 0px;
 }
 
+#pets:hover {
+    color: #FAFAFA;
+}
+
+
 #help {
     position: static;
     left: 0%;
@@ -152,6 +157,10 @@ header {
     order: 0;
     flex-grow: 0;
     margin: 10px 0px;
+}
+
+#help:hover {
+    color: #FAFAFA;
 }
 
 #contacts {
@@ -179,6 +188,10 @@ header {
     order: 0;
     flex-grow: 0;
     margin: 10px 0px;
+}
+
+#contacts:hover {
+    color: #FAFAFA;
 }
 
 #start-screen {
@@ -270,7 +283,7 @@ header {
     margin: 0 auto;
 }
 
-#button {
+#make-a-friend-button {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -285,7 +298,18 @@ header {
 
     background: #F1CDB3;
     border-radius: 100px;
-    border: none;
+    border: solid #F1CDB3;
+}
+
+#make-a-friend-button:hover {
+cursor: pointer;
+background-color: transparent;
+border: solid #F1CDB3;
+
+}
+
+#make-a-friend-button:hover #make-a-friend {
+    color: #FAFAFA;
 }
 
 #make-a-friend {
@@ -299,7 +323,6 @@ header {
     font-style: normal;
     font-weight: 400;
     font-size: 17px;
-    line-height: 130%;
 
     letter-spacing: 0.06em;
 
@@ -309,6 +332,7 @@ header {
     order: 0;
     flex-grow: 0;
     margin: 0px 0px;
+    white-space: nowrap;
 }
 
 #about-page {
@@ -469,6 +493,17 @@ header {
     border-radius: 9px;
 }
 
+.card:hover {
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.card:hover .card-button {
+    cursor: pointer;
+    background-color: #F1CDB3 ;
+
+}
+
 .card-image {
     position: static;
     left: 0%;
@@ -538,6 +573,14 @@ header {
     order: 0;
     flex-grow: 0;
     margin: 0px 0px;
+
+}
+
+.card-button:hover {
+    cursor: pointer;
+    background-color: #F1CDB3 ;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
 }
 
 .card-button-text {
@@ -578,7 +621,13 @@ header {
 
     background: #F1CDB3;
     border-radius: 100px;
-    border: none;
+    border: solid #F1CDB3;
+}
+
+#pets-page-button:hover {
+    cursor: pointer;
+    background-color: transparent;
+    border: solid #F1CDB3;
 }
 
 #pets-page-button-text {
@@ -592,8 +641,6 @@ header {
     font-style: normal;
     font-weight: 400;
     font-size: 17px;
-    line-height: 130%;
-
     letter-spacing: 0.06em;
 
     color: #292929;
@@ -622,6 +669,12 @@ header {
     background-color: transparent;
 }
 
+#arrow-button-left:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+
+}
+
 #arrow-button-right {
     display: flex;
     flex-direction: column;
@@ -635,8 +688,12 @@ header {
     border: 2px solid #F1CDB3;
     box-sizing: border-box;
     border-radius: 100px;
-    transform: rotate(-180deg);
     background-color: transparent;
+}
+
+#arrow-button-right:hover {
+    cursor: pointer;
+    transform: scale(1.1);
 }
 
 .arrow-image {
@@ -886,6 +943,10 @@ header {
     order: 0;
     flex-grow: 0;
     margin: 10px 0px;
+}
+
+#credit-card-content:hover {
+    cursor: pointer;
 }
 
 #credit-card-icon {
