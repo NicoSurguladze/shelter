@@ -194,7 +194,7 @@ header {
     color: #FAFAFA;
 }
 
-#start-screen {
+#not-only {
     position: absolute;
     height: 908px;
     left: 0%;
@@ -335,7 +335,7 @@ border: solid #F1CDB3;
     white-space: nowrap;
 }
 
-#about-page {
+#about-section {
     position: absolute;
     height: 588px;
     left: 0%;
@@ -430,7 +430,7 @@ border: solid #F1CDB3;
 
 }
 
-#pets-page {
+#our-friends {
     position: absolute;
     height: 877px;
     left: 0%;
@@ -722,7 +722,7 @@ border: solid #F1CDB3;
     margin: 0px 0px;
 }
 
-#help-page {
+#help-section {
     position: absolute;
     height: 611px;
     left: 0%;
@@ -826,7 +826,7 @@ border: solid #F1CDB3;
 }
 
 
-#donation-page {
+#in-addition-section {
     position: absolute;
     height: 462px;
     left: 0%;
