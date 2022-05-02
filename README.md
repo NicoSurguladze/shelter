@@ -1,1 +1,1 @@
-https://nicosurguladze.github.io/shelter/
+https://nicosurguladze.github.io/shelter/pages/main/
