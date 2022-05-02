@@ -404,6 +404,7 @@ border: solid #F1CDB3;
     line-height: 160%;
 
     color: #4C4C4C;
+    margin: 0 auto;
 
 }
 
@@ -425,6 +426,7 @@ border: solid #F1CDB3;
     align-items: center;
 
     color: #4C4C4C;
+    margin: 0 auto;
 
 }
 
@@ -483,6 +485,15 @@ border: solid #F1CDB3;
 
 }
 
+#card-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 990px;
+    height: 446px;
+    overflow: hidden;
+}
+
 .card {
     position: relative;
     width: 270px;
@@ -491,6 +502,8 @@ border: solid #F1CDB3;
 
     background: #FAFAFA;
     border-radius: 9px;
+    margin-right: 90px;
+    left: 0px;
 }
 
 .card:hover {
