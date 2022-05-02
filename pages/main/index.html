@@ -52,34 +52,71 @@
 
     <div id="pets-page">
         <div id="pets-page-content">
-            <h3 id="pets-page-heading">Our friends who are looking for a house</h3>
+            <h3 id="pets-page-heading">Our friends who<br> are looking for a house</h3>
             <div id="slider">
 
-                <button id="arrow-button-left"><img class="arrow-image" src="/assets/icons/Arrow-Left.png" alt="Arrow-Left"></button>
+                <button id="arrow-button-left" onclick="sliderButtonLeft()"><img class="arrow-image" src="/assets/icons/Arrow-Left.png" alt="Arrow-Left"></button>
 
-                <div class="card">
-                    <img class="card-image" src="/assets/images/pets-katrine.png" alt="Katrine">
-                    <p class="card-text">Katrine</p>
-                    <div class="card-button-container">
-                        <button class="card-button"><span class="card-button-text">Learn more</span></button>
+                <div id="card-container">
+                    <div class="card">
+                        <img class="card-image" src="/assets/images/pets-katrine.png" alt="Katrine">
+                        <p class="card-text">Katrine</p>
+                        <div class="card-button-container">
+                            <button class="card-button"><span class="card-button-text">Learn more</span></button>
+                        </div>
                     </div>
-                </div>
-                <div class="card">
-                    <img class="card-image" src="/assets/images/pets-jennifer.png" alt="Jennifer">
-                    <p class="card-text">Jennifer</p>
-                    <div class="card-button-container">
-                        <button class="card-button"><span class="card-button-text">Learn more</span></button>
+                    <div class="card">
+                        <img class="card-image" src="/assets/images/pets-jennifer.png" alt="Jennifer">
+                        <p class="card-text">Jennifer</p>
+                        <div class="card-button-container">
+                            <button class="card-button"><span class="card-button-text">Learn more</span></button>
+                        </div>
                     </div>
-                </div>
-                <div class="card">
-                    <img class="card-image" src="/assets/images/pets-woody.png" alt="Woody">
-                    <p class="card-text">Woody</p>
-                    <div class="card-button-container">
-                        <button class="card-button"><span class="card-button-text">Learn more</span></button>
+                    <div class="card">
+                        <img class="card-image" src="/assets/images/pets-woody.png" alt="Woody">
+                        <p class="card-text">Woody</p>
+                        <div class="card-button-container">
+                            <button class="card-button"><span class="card-button-text">Learn more</span></button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-image" src="/assets/images/pets-sofia.png" alt="Katrine">
+                        <p class="card-text">Sophia</p>
+                        <div class="card-button-container">
+                            <button class="card-button"><span class="card-button-text">Learn more</span></button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-image" src="/assets/images/pets-timmy.png" alt="Jennifer">
+                        <p class="card-text">Timmy</p>
+                        <div class="card-button-container">
+                            <button class="card-button"><span class="card-button-text">Learn more</span></button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-image" src="/assets/images/pets-charly.png" alt="Woody">
+                        <p class="card-text">Charly</p>
+                        <div class="card-button-container">
+                            <button class="card-button"><span class="card-button-text">Learn more</span></button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-image" src="/assets/images/pets-scarlet.png" alt="Katrine">
+                        <p class="card-text">Scarlett</p>
+                        <div class="card-button-container">
+                            <button class="card-button"><span class="card-button-text">Learn more</span></button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-image" src="/assets/images/pets-freddie.png" alt="Jennifer">
+                        <p class="card-text">Freddie</p>
+                        <div class="card-button-container">
+                            <button class="card-button"><span class="card-button-text">Learn more</span></button>
+                        </div>
                     </div>
                 </div>
 
-                <button id="arrow-button-right"><img class="arrow-image" src="/assets/icons/Arrow-Right.png" alt="Arrow-Right"></button>
+                <button id="arrow-button-right" onclick="sliderButtonRight()"><img class="arrow-image" src="/assets/icons/Arrow-Right.png" alt="Arrow-Right"></button>
 
             </div>
             <button id="pets-page-button" onclick="window.location.href='/pages/pets/index.html'"><span id="pets-page-button-text">Get to know the rest</span></button>
@@ -205,6 +242,8 @@
     </footer>
 
     </main>
+
+    <script src="/pages/main/script.js"></script>
     
 </body>
 </html>
