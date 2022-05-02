@@ -228,7 +228,7 @@ header {
     left: calc(50% - 698px/2 + 251px);
     bottom: 0px;
 
-    background: url(/assets/images/start-screen-puppy.png);
+    background: url(../../assets/images/start-screen-puppy.png);
 }
 
 #content {
